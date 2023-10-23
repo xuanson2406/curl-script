@@ -1,5 +1,5 @@
 #!/bin/bash
 nvidia-smi --gpu-reset
-sleep 30 
+sleep 10 
 echo "Will be reboot VM"
 reboot
