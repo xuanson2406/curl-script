@@ -1,1 +1,3 @@
-curl -k https://api.8jpiwgi7.prd.m.fke.fptcloud.com/healthz?verbose --header "Authorization: Bearer wHS0piZXSJGYhZUXsDzHctnVs0GQjBruMXC8H3Q8zIfmJ6dAYRI7cpHDhFupTS2jT0FCfXKlu2yVIXt97LRtjRY06Zunsy8w3bQ4bLrPyrfdmghAbhP77zU4suinIRi"
+#!/bin/bash
+curl -k https://api.8jpiwgi7.prd.m.fke.fptcloud.com/healthz?verbose --header "Authorization: Bearer wHS0piZXSJGYhZUXsDzHctnVs0GQjBruMXC8H3Q8zIfmJ6dAYRI7cpHDhFupTS2jT0FCfXKlu2yVIXt97LRtjRY06Zunsy8w3bQ4bLrPyrfdmghAbhP77zU4suinIRi" >> /log1.txt
+echo "*** FPT Cloud - Health check probe ***"
