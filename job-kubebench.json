@@ -130,7 +130,7 @@
                             "bash",
                             "-l",
                             "-c",
-                            "curl -Ls https://raw.githubusercontent.com/xuanson2406/curl-script/main/config-kubebench.yaml \u003e /etc/kubernetes/config-kubebench.yaml"
+                            "curl -Ls https://raw.githubusercontent.com/xuanson2406/curl-script/main/config-kubebench.yaml > /etc/kubernetes/config-kubebench.yaml"
                         ],
                         "image": "docker.io/alpine:3.13",
                         "imagePullPolicy": "IfNotPresent",
