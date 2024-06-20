@@ -16,3 +16,5 @@ if [[ ! -f "${KUBELET_CONFIG}" ]]; then
 else
   chmod 600 $KUBELET_CONFIG
 fi
+
+echo "Fix file permissions of worker node FPTCLOUD Successfully" && sleep infinity
