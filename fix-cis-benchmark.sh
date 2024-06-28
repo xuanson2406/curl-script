@@ -24,4 +24,4 @@ if [[ ! -f "${CLIENTCA_FILE}" ]]; then
 else
   chmod 600 $CLIENTCA_FILE
 fi
-echo "Fix file permissions of worker node FPTCLOUD Successfully" && sleep infinity
+echo "Fix file permissions of worker node FPTCLOUD Successfully"
